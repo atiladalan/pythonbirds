@@ -112,7 +112,7 @@ class Carro:
     def girar_a_direita(self):
         self.direcao.girar_a_direita()
 
-    def giar_a_esquerda(self):
+    def girar_a_esquerda(self):
         self.direcao.girar_a_esquerda()
 
 
