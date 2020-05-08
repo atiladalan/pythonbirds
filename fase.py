@@ -61,6 +61,7 @@ class Fase():
         """
         self._passaros.extend(passaros)
 
+
     def status(self):
         """
         Método que indica com mensagem o status do jogo
