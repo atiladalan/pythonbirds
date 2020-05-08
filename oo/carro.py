@@ -1,3 +1,6 @@
+# import motor  # REALIZANDO CONCEITO DE IMPORTAÇÃO DE CLASSES
+# import direcao  # REALIZANDO CONCEITO DE IMPORTAÇÃO DE CLASSES
+
 """
 Você deve criar uma classe carro que vai possuir dos atributos composto por outras classes:
 
@@ -92,6 +95,8 @@ Exemplo:l
     'Oeste'
 
 """
+
+
 class Carro:
     def __init__(self, direcao, motor):
         self.direcao = direcao
@@ -114,7 +119,6 @@ class Carro:
 
     def girar_a_esquerda(self):
         self.direcao.girar_a_esquerda()
-
 
 
 NORTE='Norte'
@@ -161,11 +165,6 @@ class Direcao:
         self.valor = self.rotacao_a_direita_dct[self.valor] #UTILIZANDO O DICIONARIO PARA REALIZAR O DIRO A DIREITA
     def girar_a_esquerda(self):
         self.valor = self.rotacao_a_esquerda_dct[self.valor] #UTILIZANDO O DICIONARIO PARA REALIZAR O DIRO A ESQUERDA
-
-
-
-
-
 
 
 class Motor:   # CLASSE MOTOR PARA CONTROLAR A VELOCIDADE DO CARRO
