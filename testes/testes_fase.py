@@ -210,3 +210,4 @@ class FaseTestes(TestCase):
         fase.calcular_pontos(0)
         self.assertEqual(30, passaro.intervalo_colisao)
         self.assertEqual(30, porco.intervalo_colisao)
+
