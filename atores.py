@@ -158,6 +158,7 @@ class Passaro(Ator):
         self._angulo_de_lancamento = math.radians(angulo)
         self._tempo_de_lancamento = tempo_de_lancamento
 
+
     def _calcular_posicao_vertical(self, delta_t):
         y_atual = self._y_inicial
         angulo_radianos = self._angulo_de_lancamento
